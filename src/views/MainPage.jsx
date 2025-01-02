@@ -1,4 +1,5 @@
-import { Header } from '../components/Header'
+import FeaturesSection from '../components/Funciones'
+import  Header  from '../components/Header'
 import { ImagenPrincipal } from '../components/ImagenPrincipal'
 
 export const MainPage = () => {
@@ -6,6 +7,7 @@ export const MainPage = () => {
     <div>
         <Header/>
         <ImagenPrincipal/>
+        <FeaturesSection/>
     </div>
   )
 }
