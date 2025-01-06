@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const initialFeatures = [
   {
@@ -25,7 +25,7 @@ const additionalFeatures = [
     description: "Elige entre más de 10 diseños únicos y profesionales.",
   },
   {
-    icon: "💬",
+    icon: "🔗",
     title: "Enlace para compartir",
     description: "Envía tus invitaciones fácilmente a través de WhatsApp o email.",
   },

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '../assets/logo-invitarly-dark.svg'
 
 const Header = () => {
@@ -10,10 +10,10 @@ const Header = () => {
 
   return (
     <header className="w-full bg-white shadow-md">
-      <div className="max-w-7xl mx-auto p-5 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto p-5 flex justify-between items-center h-24">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          <a href="/" className="text-black"><img src={logo} alt="" className='size-28'/></a>
+          <a href="/" className="text-black"><img src={logo} alt="" className='w-28'/></a>
         </div>
 
         {/* Menu Button (Hamburguesa) */}
